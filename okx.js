@@ -37,7 +37,7 @@ if (labels.length === wallets.length) {
 
       document.getElementsByClassName('okui-checkbox-inner')[0].click()
       document.getElementsByClassName('okui-checkbox-inner')[1].click()
-      document.getElementsByClassName('okui-input-code-btn')[0].click()
+      document.getElementsByClassName('btn-content')[1].click()
     } else {
         console.error('count of fields and wallets is not the same.');
     }
